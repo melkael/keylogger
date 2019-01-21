@@ -1,4 +1,4 @@
-# keylogger
+# Keylogger
 A self contained linux keylogger written in python
 A minimal keylogger for linux written in python, it has no dependency aside from standard lib.
 I'll add support for reading the keystrokes over the network as well as some sort of obfuscation mechanism soon.
