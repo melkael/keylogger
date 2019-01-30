@@ -1,3 +1,3 @@
-00 */6 * * * sudo ./path/to/keylog.py [parameters]
+00 */6 * * * ./path/to/keylog.py [parameters]
 
 # a typical usecase example : if you added this to your cron jobs, it would lauch the keylogger every 6 hour.

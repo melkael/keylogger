@@ -2,7 +2,6 @@
 
 A minimal keylogger for linux written in python, it has no dependency aside from standard lib.
 It currently supports sending the keylogs by email.
-I'd love to implement a keymap detection too, currently it's only a hardcoded qwerty
 
 ## How it works
 
@@ -16,3 +15,7 @@ I wanted to learn a bit more about linux keyboard events and it's always cool to
 ## Disclaimer
 I wrote this program for learning purposes only. Only use it on your own machines to capture your own keystrokes. 
 I can't be held responsible for your illegal activities
+
+## Ideas of further improvements
+
+It works well as it is, but I guess it would be cool to add features such as keymap detection (currently it considers anything as qwerty), screenshots and a machine learning model that would detect when a password has been typed and send an email notification
